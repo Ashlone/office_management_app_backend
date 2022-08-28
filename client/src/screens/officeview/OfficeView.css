@@ -1,0 +1,74 @@
+.title-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-wrapper h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    color: #484954;
+}
+
+.search-input {
+    background: #FFFFFF;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+}
+
+.search-input input {
+    border: none;
+    outline: none;
+    width:100%;
+}
+
+.title-wrapper span {
+    visibility: hidden;
+}
+
+.staff-members-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.staff-members-heading h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.staff-members-heading span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.staff-members-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.floating-button {
+    position: fixed;
+    z-index: 100;
+    right: 40px;
+    bottom: 40px;
+}
