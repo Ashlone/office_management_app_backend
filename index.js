@@ -13,6 +13,7 @@ dotenv.config();
 db();
 app.use(
   cors({
+    credentials: true,
     origin: "https://luminous-truffle-dcb922.netlify.app",
   })
 );
